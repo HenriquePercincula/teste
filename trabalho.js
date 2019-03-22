@@ -6,6 +6,7 @@ function inserir(){
     p.style.fontFamily='Verdana';
     p2.style.fontFamily='Verdana';
     p.style.textAlign="justify";
+    p2.style.textAlign="justify";
     var div = document.querySelector("#div1");
     var btn = document.querySelector("button");
     document.body.insertBefore(p, btn.nextSibling);
