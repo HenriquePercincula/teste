@@ -4,6 +4,7 @@ function inserir(){
     var p2 = document.createElement("p");
     p2.innerHTML = "Um dos grandes responsáveis por isso tudo é o objeto document que é responsável por conceder ao código Javascript todo o acesso a árvore DOM do navegador Web. Portanto, qualquer coisa criado pelo navegador Web no modelo da página Web poderá ser acessado através do objeto Javascript document. FONTE:Devmedia.";  
     p.style.fontFamily='Verdana';
+    p2.style.fontFamily='Verdana';
     p.style.textAlign="justify";
     var div = document.querySelector("#div1");
     var btn = document.querySelector("button");
